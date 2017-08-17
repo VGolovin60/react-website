@@ -1,0 +1,68 @@
+/* Styling for div with the 'add event' button */
+div.add-event-button {
+  margin-bottom:  25px;
+}
+
+/* Styling for the add event popup window */
+div.add-event-container {
+  border-style:   solid;
+  border-radius:  7px;
+  border-width:   1px;
+}
+
+div.add-event-container p.lead {
+  margin-bottom:  0px;
+}
+
+div.add-event-container button {
+  margin-right:   25px;
+  margin-top:     7px;
+  margin-bottom:  7px; 
+}
+
+/* Styling for events displayed in the list */
+div.event-row {
+  border-style: solid;
+  border-radius:  7px;
+  border-width:   1px;
+
+  background-color: #ccf;
+  margin-top:     5px;
+  margin-bottom:  5px;
+
+  padding-left:   0;
+}
+
+div.event-row div {
+  padding-left:   5px;
+}
+
+div.event-row button {
+  float:          right;
+  margin-top:     7px;
+}
+
+div.event-selected {
+  margin-top:     20px;
+  margin-right:   -7px;
+}
+
+/* Styling for period selection table */
+div.period-entry {
+  border-style: solid;
+  border-radius:  7px;
+  border-width:   1px;
+
+  padding:        0px;
+  margin:         5px;
+}
+
+div.period-entry.selected {
+  background-color: #ccc;
+}
+
+div.period-entry p {
+  cursor:         default;
+
+  margin-bottom:  2px;
+}
